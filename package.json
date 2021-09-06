@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "~2.8.4",
+    "cryptr": "^4.0.2",
+    "dateformat": "^3.0.3",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.7.0",
+    "express": "~4.16.0",
+    "express-myconnection": "~1.0.4",
+    "form-data": "^2.5.1",
+    "formidable": "^1.2.2",
+    "http-errors": "~1.7.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "~8.3.0",
+    "md5": "^2.2.1",
+    "morgan": "~1.9.0",
+    "mv": "^2.1.1",
+    "mysql": "~2.16.0",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.12",
+    "promise.prototype.finally": "^3.1.0",
+    "rand-token": "^1.0.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.0",
+    "uniqid": "^5.0.3",
+    "uuid": "^3.3.2"
+  }
+}
